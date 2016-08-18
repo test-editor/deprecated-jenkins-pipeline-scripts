@@ -1,5 +1,5 @@
 <strong>lastCommitFromJenkins()</strong>
 
 <p>
-Returns <pre>true</pre> if the last commit was authored by the user <pre>jenkins</pre> (or <pre>Jenkins</pre>), <pre>false</pre> otherwise.
+Returns <code>true</code> if the last commit was authored by the user <code>jenkins</codepre> (or <code>Jenkins</code>), <code>false</code> otherwise.
 </p>

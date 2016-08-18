@@ -7,10 +7,8 @@ Applies the given closure after starting Xvfb and terminating it after execution
 <p>
 Usage:
 <pre><code>
-
     withXvfb {
         // do something that requires an UI
     }
-
 </code></pre>
 </p>

@@ -1,5 +1,5 @@
 <strong>isMaster()</strong>
 
 <p>
-Returns <pre>true</pre> if the current branch is <pre>master</pre>, <pre>false</pre> otherwise.
+Returns <code>true</code> if the current branch is <code>master</code>, <code>false</code> otherwise.
 </p>

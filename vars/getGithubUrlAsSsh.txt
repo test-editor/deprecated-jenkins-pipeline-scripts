@@ -1,7 +1,7 @@
 <strong>getGithubUrlAsSsh()</strong>
 
 <p>
-Calls <pre>getGitUrl()</pre> and replaces "https://github.com/" by "git@github.com:".
+Calls <code>getGitUrl()</code> and replaces "https://github.com/" by "git@github.com:".
 This is useful as the GitHub plugin checks out the repository using HTTPS.<br/>
 <br/>
 In case we want to check-in something manually during a shell script, we want to use SSH for that.

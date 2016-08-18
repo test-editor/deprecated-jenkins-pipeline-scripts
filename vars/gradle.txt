@@ -1,5 +1,5 @@
 <strong>gradle(String argument)</strong>
 
 <p>
-Alias for <pre>sh "./gradlew $argument"</pre>.
+Alias for <code>sh "./gradlew $argument"</code>.
 </p>
