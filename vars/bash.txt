@@ -1,0 +1,5 @@
+<strong>bash(String commands)</strong>
+
+<p>
+Executes the given commands (may be multiline) with bash and returns the result.
+</p>
