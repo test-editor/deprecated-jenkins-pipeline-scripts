@@ -1,0 +1,19 @@
+<strong>nodeWithProperWorkspace(Closure body)</strong>
+
+<p>
+Workaround for Jenkins bug with feature branches (workspace has feature%2Fmy_feature in it).
+See https://issues.jenkins-ci.org/browse/JENKINS-30744 (marked as resolved but still occurs).
+</p>
+
+<p>
+Usage:
+<pre><code>
+
+    nodeWithProperWorkspace {
+    
+        // do something useful
+    
+    }
+
+</code></pre>
+</p>
