@@ -1,0 +1,20 @@
+<strong>withGradleEnv(List envVars = [], Closure body)</strong>
+
+<p>
+Executes the given closure in a environment that knows Java 8.
+Also applies the passed environment variables.
+</p>
+
+<p>
+Usage examples:
+<pre><code>
+    withGradleEnv {
+        sh './gradlew clean build'
+    }
+</code></pre>
+<pre><code>
+    withGradleEnv(["MY_VAR=xyz"]) {
+        sh './gradlew clean build'
+    }
+</code></pre>
+</p>

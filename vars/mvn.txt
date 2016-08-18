@@ -1,0 +1,6 @@
+<strong>mvn(String argument)</strong>
+
+<p>
+Alias for <pre>sh "mvn $argument -B -V"</pre>.
+It automatically adds the -B (batch) and -V (version) flag.
+</p>
