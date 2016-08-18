@@ -1,0 +1,16 @@
+<strong>withXvfb(Closure body)</strong>
+
+<p>
+Applies the given closure after starting Xvfb and terminating it after execution.
+</p>
+
+<p>
+Usage:
+<pre><code>
+
+    withXvfb {
+        // do something that requires an UI
+    }
+
+</code></pre>
+</p>

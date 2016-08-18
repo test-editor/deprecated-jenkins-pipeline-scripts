@@ -1,0 +1,5 @@
+<strong>codecov(String codecovCredentialsId)</strong>
+
+<p>
+Uploads the collected coverage data to codecov.io using the given credentials.
+</p>

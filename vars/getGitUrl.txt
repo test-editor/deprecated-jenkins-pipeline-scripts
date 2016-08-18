@@ -1,0 +1,5 @@
+<strong>getGitUrl()</strong>
+
+<p>
+Returns the url of the first configured remote.
+</p>

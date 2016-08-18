@@ -1,0 +1,20 @@
+<strong>withMavenEnv(List envVars = [], Closure body)</strong>
+
+<p>
+Executes the given closure in a environment that knows Maven (3.2.5) and Java 8.
+Also applies the passed environment variables.
+</p>
+
+<p>
+Usage examples:
+<pre><code>
+    withMavenEnv {
+        sh "mvn clean install"
+    }
+</code></pre>
+<pre><code>
+    withMavenEnv(["MAVEN_OPTS=-Xms512m -Xmx2g"]) {
+        sh "mvn clean install"
+    }
+</code></pre>
+</p>

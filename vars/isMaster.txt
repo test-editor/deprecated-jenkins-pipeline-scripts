@@ -1,4 +1,4 @@
-<strong>isMaster</strong>
+<strong>isMaster()</strong>
 
 <p>
 Returns <pre>true</pre> if the current branch is <pre>master</pre>, <pre>false</pre> otherwise.
