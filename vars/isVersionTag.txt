@@ -1,0 +1,6 @@
+<strong>isVersionTag()</strong>
+
+<p>
+Returns <code>true</code> if the current HEAD is tagged with a version tag, <code>false</code> otherwise.
+A version tag starts with a "v" followed by a semantic versioning pattern where the patch version is optional.
+</p>
