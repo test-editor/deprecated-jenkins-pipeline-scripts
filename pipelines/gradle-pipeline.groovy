@@ -14,7 +14,7 @@ nodeWithProperWorkspace {
         }
     }
     
-    if (isMaster() && lastCommitByJenkins()) {
+    if (isMaster() && lastCommitFromJenkins()) {
         // Workaround: we don't want infinite releases.
         echo "Aborting build as the current commit was done by Jenkins."
         currentBuild.displayName = "checkout-only"
